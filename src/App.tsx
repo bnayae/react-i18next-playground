@@ -7,7 +7,7 @@
 
 import React, { Suspense } from 'react';
 import './App.css';
-import { SimpleTranslation } from './components/SimpleTranslation';
+import Loader from './components/Loader';
 import { HooksTranslation } from './components/HooksTranslation';
 import { HooksLanguageSwitcher } from './components/HooksLanguageSwitcher';
 
@@ -16,9 +16,8 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <Suspense fallback="loading">
+      <Suspense fallback={<Loader />}>
         <HooksLanguageSwitcher />
-        <SimpleTranslation />
         <HooksTranslation />
       </Suspense>
     </div>

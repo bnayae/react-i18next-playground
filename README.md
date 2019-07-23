@@ -4,3 +4,4 @@
 [Backend (file)](https://github.com/i18next/i18next-node-fs-backend)
 [Hooks](https://react.i18next.com/latest/using-with-hooks)  
 [API](https://www.i18next.com/overview/api)
+[Fetch](https://github.com/perrin4869/i18next-fetch-backend)

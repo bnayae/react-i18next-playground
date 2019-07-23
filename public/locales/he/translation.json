@@ -1,8 +1,10 @@
 {
-  "title": "שלום מ",
+  "cur-lng": "שפה נוכחית",
+  "title": "שלום {{ item }}",
+  "hi": "הי {{ name }}",
   "description": {
-    "part1": "שימוש ב",
-    "part2": "החלפת שפה"
+    "part1": "חלק א",
+    "part2": "חלק ב"
   },
   "languages": {
     "he": "עברית",

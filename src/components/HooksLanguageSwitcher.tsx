@@ -16,6 +16,7 @@ export function HooksLanguageSwitcher() {
 
     return (
         <>
+            <p>{t('cur-lng')} {i18n.language}</p>
             <button onClick={() => changeLanguage('he')}>{t('languages.he', 'HEBREW')}</button>
             <button onClick={() => changeLanguage('en')}>{t('languages.en', 'ENGLISH')}</button>
         </>

@@ -11,6 +11,13 @@ export function HooksTranslation() {
     const { t /*, i18n */ } = useTranslation();
 
     return (
-        <h1>{t('title')}</h1>
+        <>
+            <h1>Hooks</h1>
+            <h3>{t('title', { item: "React i18n" })}</h3>
+            <h3>{t('hi', { name: "bnaya" })}</h3>
+            <h4>{t('description.part1')}</h4>
+            <h5>{t('description.part2')}</h5>
+            <hr />
+        </>
     );
 }

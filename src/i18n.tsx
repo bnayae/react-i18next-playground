@@ -22,8 +22,11 @@ i18n
     // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
         fallbackLng: 'en',
-        // fallbackLng: ['en', "es", "fr", "en-US", "dev"],
-        debug: true, // logs to console all the information on i18next state.
+        // fallbackLng: ['en', "es", "fr", "en-US", "dev"],        
+        // preload: ['ja', 'en', 'zh'],
+        debug: true, // logs to console all the information on i18next state.        
+        // ns: 'translation',
+        // defaultNS: 'translation',
         backend: {
             // for all available options read the backend's repository readme file
             // https://www.i18next.com/how-to/add-or-load-translations
@@ -50,7 +53,8 @@ i18n
             wait: false,
             bindI18n: 'languageChanged loaded',
             bindStore: 'added removed',
-            nsMode: 'default'
+            nsMode: 'default',
+            useSuspense: true,
         },
         // resources: {
         //     'en-US': {
