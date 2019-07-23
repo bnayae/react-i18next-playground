@@ -1,6 +1,6 @@
 {
   "cur-lng": "Current language",
-  "title": "Hello {{ item }}",
+  "title": "Hello <b>{{ item }}</b>",
   "hi": "Hi {{ name }}",
   "description": {
     "part1": "Part 1",

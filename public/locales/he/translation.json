@@ -1,6 +1,6 @@
 {
   "cur-lng": "שפה נוכחית",
-  "title": "שלום {{ item }}",
+  "title": "שלום <b>{{ item }}</b>",
   "hi": "הי {{ name }}",
   "description": {
     "part1": "חלק א",
