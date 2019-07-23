@@ -1,0 +1,6 @@
+[GitHub](https://github.com/i18next/react-i18next)  
+[Doc](https://react.i18next.com/)  
+[Blog Post](https://itnext.io/ultimate-localization-of-react-mobx-app-with-i18next-efab77712149)  
+[Backend (file)](https://github.com/i18next/i18next-node-fs-backend)
+[Hooks](https://react.i18next.com/latest/using-with-hooks)  
+[API](https://www.i18next.com/overview/api)

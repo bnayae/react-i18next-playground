@@ -1,0 +1,11 @@
+{
+  "title": "Hello React i18n",
+  "description": {
+    "part1": "Part 1",
+    "part2": "Part 2"
+  },
+  "languages": {
+    "he": "Hebrew",
+    "en": "English"
+  }
+}
